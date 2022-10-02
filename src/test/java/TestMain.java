@@ -9,8 +9,8 @@ public class TestMain {
     @ParameterizedTest()
     @CsvSource(value = {
             "aaabbb, cccddd",
-            "kldsa, mnfuc",
-            "pmf7f, roh7h",
+            "hello world, jgnnq yqtnf",
+            "Pmf7f, Roh7h",
             "ggg-ddf, iii-ffh"
     }, ignoreLeadingAndTrailingWhitespace = true)
     void testEncryption(String s, String res){
@@ -20,8 +20,8 @@ public class TestMain {
     @ParameterizedTest()
     @CsvSource(value = {
             "aaabbb, cccddd",
-            "kldsa, mnfuc",
-            "pmf7f, roh7h",
+            "hello world, jgnnq yqtnf",
+            "Pmf7f, Roh7h",
             "ggg-ddf, iii-ffh"
     }, ignoreLeadingAndTrailingWhitespace = true)
     void testDecrypt(String res, String s){
